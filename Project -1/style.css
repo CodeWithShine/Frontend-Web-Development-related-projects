@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+}
+
+.card{
+    height: 90vh;
+    width: 25vw;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    border: 2px solid grey;
+    margin:  20px auto 0px auto;
+    
+}
+
+.img{
+    height: 250px;
+    /* width: 100%; */
+    /* background-color: blue; */
+    margin: 8px ;
+    padding-bottom: 20px;
+    
+    
+}
+
+.img img{
+    height: 250px;
+    width: 100%;
+    border-radius: 1vh;
+    
+
+    
+}
+
+
+.capsules{
+    /* height: 10vh; */
+    /* width: 100px; */
+    /* background-color: #5f9ea0; */
+    display: flex;
+    margin: 10px 4px 10px 10px;
+    gap: 12px;
+    
+    
+}
+
+
+.capsules span{
+    color: grey;
+    padding: 2px 12px;
+    border: 1px solid black;
+    border-radius: 25px;
+
+    
+}
+
+
+.content{
+    padding: 12px;
+}
+.content h2{
+    
+   margin-bottom: 8px;
+    /* background-color: brown; */
+    font-family:"Roboto", sans-serif ;
+    
+
+}
+
+
+.content p{
+    font-family:"Roboto", sans-serif ;
+    line-height: 1.6;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    
+    
+}
+
+
+.button{
+     text-align: center;
+}
+
+
+.button button{
+    background-color: rgb(190, 232, 232);
+    color: rgb(12, 115, 133);
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(85, 170, 176);
+    font-weight: 800;
+    
+}
