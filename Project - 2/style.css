@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(201, 201, 201);;
+    display: flex;
+}
+
+.card{
+    background-color: white;
+    height: 500px;
+    width: 330px;
+    border-radius: 10px;
+    margin: 40px auto 0px auto;
+    border: 2px solid grey;
+}
+
+
+
+.image img{
+    width: 320px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.capsules{
+    padding: 10px 0px 4px 15px;
+    gap: 15px;
+    display: flex;
+}
+
+.capsules span{
+    border: 1px solid rgb(8, 8, 8);
+    padding: 1px 10px;
+    border-radius: 50px;
+    /* margin-bottom: 12px; */
+    color: rgb(101, 101, 101);
+
+}
+
+
+.content{
+    padding: 12px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.content h2{
+    margin-bottom: 15px;
+
+}
+
+.content p{
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(192, 217, 239);
+    color: rgb(17, 149, 220);
+    border: 2px solid rgb(147, 180, 250);
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.button :hover{
+    background-color:plum;
+    color: rgb(150, 3, 150);
+    border: 2px solid palevioletred;
+}
